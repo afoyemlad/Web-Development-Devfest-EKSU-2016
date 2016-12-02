@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Devfest- Beginner Session</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<span class="big-title">Google Devfest 2016 - Web development for Beginners</span><br/>
+	<span class="medium-title">Simple Calculator - HTML, CSS & JavaScript</span>
+	<form id="calc" oninput="updateOutput()">
+		<input name="x" type="number" value="0" />
+		<select name="operator" onchange="updateOutput()">
+			<option value="0">+</option>
+			<option value="1">-</option>
+			<option value="2">&times</option>
+			<option value="3">&divide</option>		
+		</select>
+		<input name="y" type="number" value="0" />
+		<div class="equals"> = </div>
+		<output name="z" for="x y">0</output>
+
+	</form>
+	
+</body>
+</html>

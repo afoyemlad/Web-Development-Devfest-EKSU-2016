@@ -1,0 +1,42 @@
+	input[type="number"]{
+		width:50px;
+		height: 30px;
+		text-align: center;
+		margin: 3px;
+		float: left;
+	}
+	select, .equals{
+		margin:3px;
+		float: left;
+	}
+	output{
+		display: block;
+		border: 1px solid #333333;
+		border-radius: 5px;
+		min-width: 25px;
+		height: 25px;
+		margin: 3px;
+		padding: 2px;
+		text-align: center;
+		background: #000000;
+		color: #ffffff;
+		float: left;
+	}
+	body{
+		margin-left: 30%;
+		margin-right:30%;
+		margin-top:10%;
+
+		}
+	.big-title{
+		color: #935366;
+		font-size: 30px;
+		text-align: center;
+		font-family: verdana;
+	}
+	.medium-title{
+		color: #935366;
+		font-size: 20px;
+		text-align: center;
+		font-family: verdana;
+	}
