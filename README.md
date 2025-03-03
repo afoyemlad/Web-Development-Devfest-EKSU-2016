@@ -1,3 +1,3 @@
 # WebDevelopmentDevfestEksu2016
+This is project for a teaching session during Google Devfest 2016.
 
-Just a sample project for developers fest 2016
